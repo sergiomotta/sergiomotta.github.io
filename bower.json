@@ -1,15 +1,23 @@
 {
-  "name": "front-end-boilerplate",
-  "version": "0.2.0",
-  "homepage": "https://github.com/m10l/front-end-boilerplate",
+  "name": "sergiomotta.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sergiomotta/sergiomotta.github.io",
+  "authors": [
+    "Sérgio Motta <sergio.motta@hyperlinks.com.br>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "test",
+    "tests"
   ],
-  "dependencies": {
-    "modernizr": "~2.7.1",
-    "jquery": "~2.1.0"
+  "devDependencies": {
+    "angular": "angularjs#~1.4.6",
+    "bootstrap-material-design": "~0.3.0"
   }
 }

@@ -1,0 +1,16 @@
+<aside class="blog aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+                        <div id="rss-feeds" class="content">
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+				
+				
+				
+				<p>Prazer, eu sou Sérgio Motta. Sou designer digital, atualmente CEO da agência Hyperlinks Digital, em São Paulo. Sou especialista em design de interação focado em hipermídia. Ou seja, projetos de informação, interação e interface para websites, apps, revistas e livros digitais, cursos online e vídeos interativos.</p>
+                            <p>Projetos estes, que tive a oportunidade de explorar em algumas empresas, como no grupo UOL Educação, a maior empresa de educação online do Brasil; no Instituto Lado a Lado Pela Vida, que investe em campanhas voltadas para a saúde e bem-estar, bem como Outubro Rosa, Novembro Azul e Setembro Vermelho; e na RV Mais, uma das mais conceituadas agências de eventos no Brasil, além de parcerias com agências do mercado digital e finalmente, a fundação da Hyperlinks Digital, um novo projeto voltado para inovação no mercado digital.</p>
+                            <p>Sempre fui muito curioso e insatisfeito (ambos no bom sentido), o que me entrar nesse mercado e dar início a Hyperlinks. Uma nova forma de inovar, de trabalhar, de crescer, de ver e aproveitar as oportunidades.</p>
+                            <p>Bom, esse sou eu. Esse da foto. Um nerd hipster. É sério! :P Veja um pouco mais sobre alguns dos meus projetos.</p>    
