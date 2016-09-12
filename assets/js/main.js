@@ -54,6 +54,34 @@ jQuery(document).ready(function($) {
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
-
-
 });
+
+	$('#scrollDown').click(function(){
+		$('html,body').animate({
+			scrollTop:  '10px'
+	    });
+	});
+
+	$('.section').fadeInScroll({
+		minDistance:  80 * $(window).height() / 100
+	});
+	$(window).bind('scroll', function() {    
+		var scroll = $(window).scrollTop();
+		if (scroll >= 1) { 
+				if ($(".header").hasClass("open")){ 
+					$('html,body').animate({
+						scrollTop: 0
+					}, 0);
+				}
+			setTimeout(function(){
+				$(".header").removeClass("open");
+			 },100);
+		} 
+	});	
+
+$(function(){
+		$('.header .container').animate({opacity:1,marginTop:'30px'}, 'slow');
+});
+
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
