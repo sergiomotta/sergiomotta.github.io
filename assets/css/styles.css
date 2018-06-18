@@ -278,6 +278,7 @@ iframe {
 }
 .latest .featured .desc {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 .latest .featured-image {
   position: relative;
@@ -341,7 +342,7 @@ iframe {
     transform: scale(1.1,1.1);
 	opacity: .8;
 }
-.featured-image .desc{
+.featured .desc{
 	margin: 20px 0;
 }
 .title{
